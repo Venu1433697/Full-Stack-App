@@ -8,19 +8,19 @@
 </header>
 
 <body>
-    <form onsubmit="formSubmit(event)" class="form-container">
+    <form onsubmit="formSubmit(event)" id="gg" method="POST" class="form-container">
         <h1 class="form-heading">BOOKING APPOINTMENT</h1>
         <input type="text" id="userId" name="userId" class="form-input-container a" placeholder="Enter User ID"><br>
         <input type="phone" id="phone" name="phone" class="form-input-container a" placeholder="Enter Phone Number"><br>
         <input type="email" id="email" name="email" class="form-input-container a" placeholder="Enter Email Id"><br>
         <button class="button-container" type="submit">Submit</button>
     </form>
-
-    <data>
-        <h2>APPOINTMENT</h2>
+    <h2>APPOINTMENT</h2>
+    <data id="appointmentdata">
+       
     </data>
 
-    <script src="app.js"></script>
 </body>
-
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="app.js"></script>
 </html>

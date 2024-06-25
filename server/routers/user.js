@@ -1,12 +1,10 @@
 const express=require('express');
 const router=express.Router();
 
-const appointment=require('../controller/appointment')
+const appointment=require('../controller/appointment');
 
-router.use('/',appointment.user);
-
-
-router.post('/formData',appointment.addFormData)
-
+router.post('/submit',appointment.addFormData);
+router.get('/data',appointment.getData);
+router.delete('/delete/:id',appointment.deleteData);
 
 module.exports=router;
