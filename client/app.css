@@ -1,0 +1,26 @@
+.form-heading{
+    text-align: center;
+    color: rgb(17, 41, 98);
+    padding: 30px;
+}
+.form-container{
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: rgb(155, 155, 192);
+    text-align: center;
+    border-radius: 30px;
+}
+.form-input-container{
+    border-radius: 10px;
+    height: 40px;
+    width:75%;
+    margin:10px;
+    border: solid white;
+}
+
+.button-container{
+    margin: 20px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+}
